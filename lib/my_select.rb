@@ -4,5 +4,5 @@ def my_select(collection)
  while collection.length > 0
   if yield(collection[i]) == true
     selections << collection[i]
- 
+ end
 end
